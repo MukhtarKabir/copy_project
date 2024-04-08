@@ -1,0 +1,63 @@
+body{
+    background-color: #00bcd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.copy-container{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    width: 400px;
+    color: black;
+    display:flex;
+    justify-content: space-between;
+}
+.copy-container textarea{
+    all: unset;
+    border: solid 2px lightblue;
+    padding: .6rem;
+    border-radius: .5rem;
+    width: 70%;
+}
+.copy-container textarea:focus{
+    box-shadow: 2px 2px 3px 3px #00bcd4;
+}
+.copy-container .copy{
+    cursor: pointer;
+    color: rgb(254, 254, 255);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #03a9f4;
+    padding: .5rem .4rem .2rem;
+    border-radius: .4rem;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.copy-container .copy:hover{
+    cursor: pointer;
+    color: rgb(62, 111, 58);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
